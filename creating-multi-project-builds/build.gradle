@@ -6,6 +6,10 @@
  */
 
 
+plugins {
+    id 'org.asciidoctor.convert' version '1.5.6' apply false
+}
+
 allprojects {
     repositories {
         jcenter()
@@ -15,4 +19,3 @@ allprojects {
 subprojects {
     version = '1.0'
 }
-
